@@ -27,13 +27,13 @@ function Question({title,description}) {
     )
 }
 
-const QuestionStyled = styled.div`
+const QuestionStyled = styled.div` 
 
 background: #fff;
 margin: 2rem 0;
 padding: .2rem 1rem;
 border-radius: 24px;
-box-shadow: 0px 25px 50px rbga(22,25,79,0.05);
+box-shadow: 0px 25px 50px rbga(22,25,79,0.06);
 
 h4{
     color: #16194F; 
