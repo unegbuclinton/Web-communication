@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { innerLayout } from '../Styles/Layout'
 import Stats from './Stats'
 import chart from '../img/chart.svg'
 import AnimatedButton from './AnimatedButton'
@@ -9,7 +8,7 @@ import AnimatedButton from './AnimatedButton'
 function ChartSection() {
     return (
         <ChartSectionStyled>
-            <innerLayout>
+         
                 <div className="chart-container">
                     <div className="chart-left">
                         <div className="stats">
@@ -30,7 +29,7 @@ function ChartSection() {
                         <AnimatedButton name={'Learn More'} />
                     </div>
                 </div>
-            </innerLayout>
+    
         </ChartSectionStyled>
     )
 }

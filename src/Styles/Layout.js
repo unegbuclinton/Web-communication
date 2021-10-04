@@ -33,7 +33,3 @@ export const OuterLayout = styled.section`
     
 `;
 
-
-export const innerLayout = styled.section`
-    padding: 20rem;
-`;
