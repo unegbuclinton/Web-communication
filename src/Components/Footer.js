@@ -97,7 +97,7 @@ height : 60vh;
 @media screen and (max-width:768px){
         
     padding: 2rem 2rem;
-    background-color: red;
+    
    
 }
 
